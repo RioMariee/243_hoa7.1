@@ -1,0 +1,442 @@
+Mar  6 10:57:23 Suzuki systemd-logind[606]: New seat seat0.
+Mar  6 10:57:23 Suzuki systemd-logind[606]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 10:57:23 Suzuki systemd-logind[606]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 10:57:23 Suzuki systemd-logind[606]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 10:57:29 Suzuki gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  6 10:57:29 Suzuki systemd-logind[606]: New session c1 of user gdm.
+Mar  6 10:57:29 Suzuki systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  6 10:57:32 Suzuki gnome-keyring-daemon[912]: couldn't access control socket: /run/user/121/keyring/control: No such file or directory
+Mar  6 10:57:40 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.30 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 10:58:11 Suzuki dbus-daemon[584]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  6 11:17:01 Suzuki CRON[3595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  6 11:17:01 Suzuki CRON[3595]: pam_unix(cron:session): session closed for user root
+Mar  6 11:35:41 Suzuki gdm-password]: pam_unix(gdm-password:session): session opened for user rio by (uid=0)
+Mar  6 11:35:41 Suzuki systemd: pam_unix(systemd-user:session): session opened for user rio by (uid=0)
+Mar  6 11:35:41 Suzuki systemd-logind[606]: New session 3 of user rio.
+Mar  6 11:35:43 Suzuki gnome-keyring-daemon[3625]: The Secret Service was already initialized
+Mar  6 11:35:43 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 11:36:08 Suzuki dbus-daemon[584]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  6 11:38:02 Suzuki sudo:      rio : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  6 11:38:30 Suzuki sudo:      rio : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano
+Mar  6 11:39:17 Suzuki sudo:      rio : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/usr/bin/apt install
+Mar  6 11:42:09 Suzuki sudo:      rio : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/usr/bin/apt install ansible
+Mar  6 11:45:42 Suzuki sudo:      rio : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/bash
+Mar  6 11:47:09 Suzuki sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=rio rhost=  user=rio
+Mar  6 11:47:19 Suzuki sudo:      rio : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/usr/bin/apt install
+Mar  6 11:47:38 Suzuki sudo:      rio : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/usr/bin/apt install ansible
+Mar  6 11:48:13 Suzuki su[5124]: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=rio rhost=  user=root
+Mar  6 11:48:16 Suzuki su[5124]: pam_authenticate: Authentication failure
+Mar  6 11:48:16 Suzuki su[5124]: FAILED su for root by rio
+Mar  6 11:48:16 Suzuki su[5124]: - /dev/pts/0 rio:root
+Mar  6 11:48:23 Suzuki su[5125]: Successful su for root by rio
+Mar  6 11:48:23 Suzuki su[5125]: + /dev/pts/0 rio:root
+Mar  6 11:48:23 Suzuki su[5125]: pam_unix(su:session): session opened for user root by (uid=1000)
+Mar  6 11:48:23 Suzuki su[5125]: pam_systemd(su:session): Cannot create session: Already occupied by a session
+Mar  6 11:48:34 Suzuki sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  6 11:48:34 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 11:48:40 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 11:48:48 Suzuki sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar  6 11:48:48 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 11:59:35 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.30 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 11:59:35 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 11:59:35 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.30 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 11:59:35 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:3 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 11:59:56 Suzuki systemd-logind[606]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 11:59:56 Suzuki systemd-logind[606]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 11:59:56 Suzuki systemd-logind[606]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 12:01:36 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:04:15 Suzuki sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install python3
+Mar  6 12:04:15 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:04:16 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:04:21 Suzuki sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install ansible
+Mar  6 12:04:21 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:04:53 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:06:14 Suzuki systemd-logind[606]: System is powering down.
+Mar  6 12:06:14 Suzuki su[5125]: pam_unix(su:session): session closed for user root
+Mar  6 12:26:53 Suzuki systemd-logind[676]: New seat seat0.
+Mar  6 12:26:53 Suzuki systemd-logind[676]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 12:26:53 Suzuki systemd-logind[676]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 12:26:53 Suzuki systemd-logind[676]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 12:26:57 Suzuki gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  6 12:26:57 Suzuki systemd-logind[676]: New session c1 of user gdm.
+Mar  6 12:26:58 Suzuki systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  6 12:27:06 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 12:27:22 Suzuki gdm-password]: pam_unix(gdm-password:session): session opened for user rio by (uid=0)
+Mar  6 12:27:22 Suzuki systemd: pam_unix(systemd-user:session): session opened for user rio by (uid=0)
+Mar  6 12:27:22 Suzuki systemd-logind[676]: New session 2 of user rio.
+Mar  6 12:27:25 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 12:27:29 Suzuki dbus-daemon[670]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  6 12:27:39 Suzuki su[1799]: Successful su for root by rio
+Mar  6 12:27:39 Suzuki su[1799]: + /dev/pts/0 rio:root
+Mar  6 12:27:39 Suzuki su[1799]: pam_unix(su:session): session opened for user root by (uid=1000)
+Mar  6 12:27:39 Suzuki systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Mar  6 12:27:39 Suzuki systemd-logind[676]: New session 3 of user root.
+Mar  6 12:27:45 Suzuki sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  6 12:27:45 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:27:52 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:27:57 Suzuki sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar  6 12:27:57 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:27:57 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:28:07 Suzuki sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install ansible
+Mar  6 12:28:07 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:28:07 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:28:21 Suzuki sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install ?
+Mar  6 12:28:21 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:28:21 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:29:16 Suzuki sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+Mar  6 12:29:16 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:29:24 Suzuki useradd[2682]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+Mar  6 12:29:24 Suzuki usermod[2688]: change user 'sshd' password
+Mar  6 12:29:24 Suzuki chage[2693]: changed password expiry for sshd
+Mar  6 12:29:25 Suzuki sshd[2781]: Server listening on 0.0.0.0 port 22.
+Mar  6 12:29:25 Suzuki sshd[2781]: Server listening on :: port 22.
+Mar  6 12:29:30 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:44:16 Suzuki gdm-password]: gkr-pam: unlocked login keyring
+Mar  6 12:44:40 Suzuki sudo:     root : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/bin/nano hostname
+Mar  6 12:44:40 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:44:54 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:45:01 Suzuki systemd-logind[676]: System is rebooting.
+Mar  6 12:45:01 Suzuki su[1799]: pam_unix(su:session): session closed for user root
+Mar  6 12:45:01 Suzuki polkitd(authority=local): Unregistered Authentication Agent for unix-session:2 (system bus name :1.77, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8) (disconnected from bus)
+Mar  6 12:45:26 Suzuki systemd-logind[662]: New seat seat0.
+Mar  6 12:45:26 Suzuki systemd-logind[662]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 12:45:26 Suzuki systemd-logind[662]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 12:45:26 Suzuki systemd-logind[662]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 12:45:30 Suzuki sshd[773]: Server listening on 0.0.0.0 port 22.
+Mar  6 12:45:30 Suzuki sshd[773]: Server listening on :: port 22.
+Mar  6 12:45:32 Suzuki sshd[773]: Received SIGHUP; restarting.
+Mar  6 12:45:32 Suzuki sshd[773]: Server listening on 0.0.0.0 port 22.
+Mar  6 12:45:32 Suzuki sshd[773]: Server listening on :: port 22.
+Mar  6 12:45:32 Suzuki gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  6 12:45:32 Suzuki systemd-logind[662]: New session c1 of user gdm.
+Mar  6 12:45:32 Suzuki systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  6 12:45:33 Suzuki sshd[773]: Received SIGHUP; restarting.
+Mar  6 12:45:33 Suzuki sshd[773]: Server listening on 0.0.0.0 port 22.
+Mar  6 12:45:33 Suzuki sshd[773]: Server listening on :: port 22.
+Mar  6 12:45:33 Suzuki sshd[773]: Received SIGHUP; restarting.
+Mar  6 12:45:33 Suzuki sshd[773]: Server listening on 0.0.0.0 port 22.
+Mar  6 12:45:33 Suzuki sshd[773]: Server listening on :: port 22.
+Mar  6 12:45:40 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 12:45:58 Suzuki gdm-password]: pam_unix(gdm-password:session): session opened for user rio by (uid=0)
+Mar  6 12:45:58 Suzuki systemd: pam_unix(systemd-user:session): session opened for user rio by (uid=0)
+Mar  6 12:45:58 Suzuki systemd-logind[662]: New session 2 of user rio.
+Mar  6 12:46:01 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 12:46:02 Suzuki dbus-daemon[667]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  6 12:46:20 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano hostnaem
+Mar  6 12:46:20 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:46:22 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:46:27 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano hostname
+Mar  6 12:46:27 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 12:46:48 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 12:46:53 Suzuki systemd-logind[662]: System is rebooting.
+Mar  6 12:46:53 Suzuki polkitd(authority=local): Unregistered Authentication Agent for unix-session:2 (system bus name :1.77, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8) (disconnected from bus)
+Mar  6 12:46:53 Suzuki gdm-password]: pam_unix(gdm-password:session): session closed for user rio
+Mar  6 12:47:19 Suzuki systemd-logind[694]: New seat seat0.
+Mar  6 12:47:19 Suzuki systemd-logind[694]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 12:47:19 Suzuki systemd-logind[694]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 12:47:19 Suzuki systemd-logind[694]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 12:47:23 Suzuki sshd[795]: Server listening on 0.0.0.0 port 22.
+Mar  6 12:47:23 Suzuki sshd[795]: Server listening on :: port 22.
+Mar  6 12:47:25 Suzuki gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  6 12:47:25 Suzuki systemd-logind[694]: New session c1 of user gdm.
+Mar  6 12:47:25 Suzuki systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  6 12:47:25 Suzuki sshd[795]: Received SIGHUP; restarting.
+Mar  6 12:47:25 Suzuki sshd[795]: Server listening on 0.0.0.0 port 22.
+Mar  6 12:47:25 Suzuki sshd[795]: Server listening on :: port 22.
+Mar  6 12:47:25 Suzuki sshd[795]: Received SIGHUP; restarting.
+Mar  6 12:47:25 Suzuki sshd[795]: Server listening on 0.0.0.0 port 22.
+Mar  6 12:47:25 Suzuki sshd[795]: Server listening on :: port 22.
+Mar  6 12:47:26 Suzuki sshd[795]: Received SIGHUP; restarting.
+Mar  6 12:47:26 Suzuki sshd[795]: Server listening on 0.0.0.0 port 22.
+Mar  6 12:47:26 Suzuki sshd[795]: Server listening on :: port 22.
+Mar  6 12:47:26 Suzuki sshd[795]: Received SIGHUP; restarting.
+Mar  6 12:47:26 Suzuki sshd[795]: Server listening on 0.0.0.0 port 22.
+Mar  6 12:47:26 Suzuki sshd[795]: Server listening on :: port 22.
+Mar  6 12:47:32 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 12:47:54 Suzuki dbus-daemon[697]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  6 12:47:55 Suzuki gdm-password]: pam_unix(gdm-password:session): session opened for user rio by (uid=0)
+Mar  6 12:47:55 Suzuki systemd: pam_unix(systemd-user:session): session opened for user rio by (uid=0)
+Mar  6 12:47:55 Suzuki systemd-logind[694]: New session 2 of user rio.
+Mar  6 12:47:59 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  6 12:48:23 Suzuki dbus-daemon[697]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  6 13:17:01 Suzuki CRON[1978]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  6 13:17:01 Suzuki CRON[1978]: pam_unix(cron:session): session closed for user root
+Mar  6 13:25:58 Suzuki sshd[795]: Received SIGHUP; restarting.
+Mar  6 13:25:58 Suzuki sshd[795]: Server listening on 0.0.0.0 port 22.
+Mar  6 13:25:58 Suzuki sshd[795]: Server listening on :: port 22.
+Mar  6 13:25:58 Suzuki sshd[795]: Received SIGHUP; restarting.
+Mar  6 13:25:58 Suzuki sshd[795]: Server listening on 0.0.0.0 port 22.
+Mar  6 13:25:58 Suzuki sshd[795]: Server listening on :: port 22.
+Mar  6 13:25:59 Suzuki gdm-password]: gkr-pam: unlocked login keyring
+Mar  6 13:26:38 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+Mar  6 13:26:38 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 13:26:38 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 13:30:17 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar  6 13:30:17 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 13:30:28 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 13:31:21 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+Mar  6 13:31:21 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 13:31:22 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 13:32:08 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/usr/sbin/service ssh start
+Mar  6 13:32:08 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 13:32:08 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 13:32:30 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/systemctl status ssh
+Mar  6 13:32:30 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 13:33:31 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+Mar  6 13:33:31 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 13:33:31 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 13:34:01 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Mar  6 13:34:01 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 13:34:01 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 13:34:10 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/usr/sbin/ufw status
+Mar  6 13:34:10 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 13:34:10 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 13:35:05 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+Mar  6 13:35:05 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  6 13:35:12 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  6 13:42:17 Suzuki systemd-logind[694]: System is rebooting.
+Mar  6 13:42:59 Suzuki systemd-logind[738]: New seat seat0.
+Mar  6 13:42:59 Suzuki systemd-logind[738]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  6 13:42:59 Suzuki systemd-logind[738]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  6 13:42:59 Suzuki systemd-logind[738]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  6 13:43:04 Suzuki sshd[849]: Server listening on 0.0.0.0 port 22.
+Mar  6 13:43:04 Suzuki sshd[849]: Server listening on :: port 22.
+Mar  6 13:43:08 Suzuki sshd[849]: Received SIGHUP; restarting.
+Mar  6 13:43:08 Suzuki sshd[849]: Server listening on 0.0.0.0 port 22.
+Mar  6 13:43:08 Suzuki sshd[849]: Server listening on :: port 22.
+Mar  6 13:43:09 Suzuki gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  6 13:43:09 Suzuki systemd-logind[738]: New session c1 of user gdm.
+Mar  6 13:43:10 Suzuki systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 16:51:36 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 16:51:49 Suzuki gdm-password]: pam_unix(gdm-password:session): session opened for user rio by (uid=0)
+Mar  7 16:51:49 Suzuki systemd: pam_unix(systemd-user:session): session opened for user rio by (uid=0)
+Mar  7 16:51:49 Suzuki systemd-logind[738]: New session 2 of user rio.
+Mar  7 16:51:51 Suzuki dbus-daemon[711]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 16:51:52 Suzuki polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 16:52:16 Suzuki dbus-daemon[711]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 16:52:44 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/usr/bin/apt install git
+Mar  7 16:52:44 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 16:53:05 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 16:59:45 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano ansible.cfg
+Mar  7 16:59:45 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 17:00:51 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:15:56 Suzuki gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty2 ruser= rhost=  user=rio
+Mar  7 17:16:02 Suzuki gdm-password]: gkr-pam: unlocked login keyring
+Mar  7 17:17:01 Suzuki CRON[5370]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  7 17:17:01 Suzuki CRON[5370]: pam_unix(cron:session): session closed for user root
+Mar  7 17:30:07 Suzuki sshd[5420]: Connection closed by authenticating user rio 192.168.56.119 port 58440 [preauth]
+Mar  7 17:30:28 Suzuki gdm-password]: gkr-pam: unlocked login keyring
+Mar  7 17:30:39 Suzuki sshd[5440]: Connection closed by authenticating user rio 192.168.56.119 port 34876 [preauth]
+Mar  7 17:31:17 Suzuki sshd[5448]: Accepted password for rio from 192.168.56.119 port 39688 ssh2
+Mar  7 17:31:17 Suzuki sshd[5448]: pam_unix(sshd:session): session opened for user rio by (uid=0)
+Mar  7 17:31:17 Suzuki systemd-logind[738]: New session 5 of user rio.
+Mar  7 17:32:09 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano /etc/hostname
+Mar  7 17:32:09 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 17:32:21 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:32:25 Suzuki sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar  7 17:32:25 Suzuki sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 17:32:37 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:32:49 Suzuki sudo:      rio : TTY=pts/1 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar  7 17:32:49 Suzuki sudo: pam_unix(sudo:session): session opened for user root by rio(uid=0)
+Mar  7 17:33:23 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:33:27 Suzuki sudo:      rio : TTY=pts/1 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano /etc/hostname
+Mar  7 17:33:27 Suzuki sudo: pam_unix(sudo:session): session opened for user root by rio(uid=0)
+Mar  7 17:33:36 Suzuki sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:33:54 Suzuki sshd[5517]: Received disconnect from 192.168.56.119 port 39688:11: disconnected by user
+Mar  7 17:33:54 Suzuki sshd[5517]: Disconnected from user rio 192.168.56.119 port 39688
+Mar  7 17:33:54 Suzuki systemd-logind[738]: Removed session 5.
+Mar  7 17:33:54 Suzuki sshd[5448]: pam_unix(sshd:session): session closed for user rio
+Mar  7 17:33:58 Suzuki systemd-logind[738]: System is rebooting.
+Mar  7 17:34:59 workstation systemd-logind[729]: New seat seat0.
+Mar  7 17:34:59 workstation systemd-logind[729]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 17:34:59 workstation systemd-logind[729]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 17:34:59 workstation systemd-logind[729]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 17:35:04 workstation sshd[844]: Server listening on 0.0.0.0 port 22.
+Mar  7 17:35:04 workstation sshd[844]: Server listening on :: port 22.
+Mar  7 17:35:07 workstation gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 17:35:07 workstation systemd-logind[729]: New session c1 of user gdm.
+Mar  7 17:35:07 workstation systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 17:35:07 workstation sshd[844]: Received SIGHUP; restarting.
+Mar  7 17:35:07 workstation sshd[844]: Server listening on 0.0.0.0 port 22.
+Mar  7 17:35:07 workstation sshd[844]: Server listening on :: port 22.
+Mar  7 17:35:07 workstation sshd[844]: Received SIGHUP; restarting.
+Mar  7 17:35:07 workstation sshd[844]: Server listening on 0.0.0.0 port 22.
+Mar  7 17:35:07 workstation sshd[844]: Server listening on :: port 22.
+Mar  7 17:35:07 workstation sshd[844]: Received SIGHUP; restarting.
+Mar  7 17:35:07 workstation sshd[844]: Server listening on 0.0.0.0 port 22.
+Mar  7 17:35:07 workstation sshd[844]: Server listening on :: port 22.
+Mar  7 17:35:21 workstation polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 17:35:30 workstation gdm-password]: pam_unix(gdm-password:session): session opened for user rio by (uid=0)
+Mar  7 17:35:30 workstation systemd: pam_unix(systemd-user:session): session opened for user rio by (uid=0)
+Mar  7 17:35:30 workstation systemd-logind[729]: New session 2 of user rio.
+Mar  7 17:35:33 workstation polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 17:35:42 workstation dbus-daemon[744]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 17:37:52 workstation sshd[1926]: Connection closed by authenticating user rio 192.168.56.119 port 35484 [preauth]
+Mar  7 17:40:26 workstation sshd[1970]: Connection closed by authenticating user rio 192.168.56.119 port 41022 [preauth]
+Mar  7 17:40:26 workstation sshd[1972]: Connection closed by authenticating user rio 192.168.56.119 port 41038 [preauth]
+Mar  7 17:40:36 workstation sshd[1974]: Accepted password for rio from 192.168.56.119 port 41054 ssh2
+Mar  7 17:40:36 workstation sshd[1974]: pam_unix(sshd:session): session opened for user rio by (uid=0)
+Mar  7 17:40:36 workstation systemd-logind[729]: New session 4 of user rio.
+Mar  7 17:40:36 workstation sshd[2041]: Received disconnect from 192.168.56.119 port 41054:11: disconnected by user
+Mar  7 17:40:36 workstation sshd[2041]: Disconnected from user rio 192.168.56.119 port 41054
+Mar  7 17:40:36 workstation sshd[1974]: pam_unix(sshd:session): session closed for user rio
+Mar  7 17:40:36 workstation systemd-logind[729]: Removed session 4.
+Mar  7 17:40:55 workstation sshd[2052]: Accepted publickey for rio from 192.168.56.119 port 57120 ssh2: RSA SHA256:pNg7israBi+ETsKKVl6m2h8e7VeTu/WakUo9U5igvLk
+Mar  7 17:40:55 workstation sshd[2052]: pam_unix(sshd:session): session opened for user rio by (uid=0)
+Mar  7 17:40:55 workstation systemd-logind[729]: New session 5 of user rio.
+Mar  7 17:40:57 workstation sshd[2097]: Received disconnect from 192.168.56.119 port 57120:11: disconnected by user
+Mar  7 17:40:57 workstation sshd[2097]: Disconnected from user rio 192.168.56.119 port 57120
+Mar  7 17:40:57 workstation sshd[2052]: pam_unix(sshd:session): session closed for user rio
+Mar  7 17:40:57 workstation systemd-logind[729]: Removed session 5.
+Mar  7 17:42:01 workstation sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar  7 17:42:01 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 17:42:05 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:42:10 workstation sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano /etc/hostname
+Mar  7 17:42:10 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 17:42:26 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:42:38 workstation systemd-logind[729]: System is rebooting.
+Mar  7 17:42:38 workstation polkitd(authority=local): Unregistered Authentication Agent for unix-session:2 (system bus name :1.77, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8) (disconnected from bus)
+Mar  7 17:43:08 server1 systemd-logind[736]: New seat seat0.
+Mar  7 17:43:08 server1 systemd-logind[736]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 17:43:08 server1 systemd-logind[736]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 17:43:08 server1 systemd-logind[736]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 17:43:12 server1 sshd[852]: Server listening on 0.0.0.0 port 22.
+Mar  7 17:43:12 server1 sshd[852]: Server listening on :: port 22.
+Mar  7 17:43:14 server1 sshd[852]: Received SIGHUP; restarting.
+Mar  7 17:43:14 server1 sshd[852]: Server listening on 0.0.0.0 port 22.
+Mar  7 17:43:14 server1 sshd[852]: Server listening on :: port 22.
+Mar  7 17:43:14 server1 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 17:43:14 server1 systemd-logind[736]: New session c1 of user gdm.
+Mar  7 17:43:14 server1 sshd[852]: Received SIGHUP; restarting.
+Mar  7 17:43:14 server1 sshd[852]: Server listening on 0.0.0.0 port 22.
+Mar  7 17:43:14 server1 sshd[852]: Server listening on :: port 22.
+Mar  7 17:43:14 server1 sshd[852]: Received SIGHUP; restarting.
+Mar  7 17:43:14 server1 sshd[852]: Server listening on 0.0.0.0 port 22.
+Mar  7 17:43:14 server1 sshd[852]: Server listening on :: port 22.
+Mar  7 17:43:14 server1 systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 17:43:14 server1 sshd[852]: Received SIGHUP; restarting.
+Mar  7 17:43:14 server1 sshd[852]: Server listening on 0.0.0.0 port 22.
+Mar  7 17:43:14 server1 sshd[852]: Server listening on :: port 22.
+Mar  7 17:43:21 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 17:43:31 server1 gdm-password]: pam_unix(gdm-password:session): session opened for user rio by (uid=0)
+Mar  7 17:43:31 server1 systemd: pam_unix(systemd-user:session): session opened for user rio by (uid=0)
+Mar  7 17:43:31 server1 systemd-logind[736]: New session 2 of user rio.
+Mar  7 17:43:35 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.77 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 17:43:43 server1 dbus-daemon[740]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 17:43:51 server1 sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano /etc/hostname
+Mar  7 17:43:51 server1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 17:44:02 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:46:21 server1 sshd[1984]: Accepted publickey for rio from 192.168.56.119 port 41542 ssh2: RSA SHA256:pNg7israBi+ETsKKVl6m2h8e7VeTu/WakUo9U5igvLk
+Mar  7 17:46:21 server1 sshd[1984]: pam_unix(sshd:session): session opened for user rio by (uid=0)
+Mar  7 17:46:21 server1 systemd-logind[736]: New session 4 of user rio.
+Mar  7 17:46:29 server1 sudo:      rio : TTY=pts/1 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar  7 17:46:29 server1 sudo: pam_unix(sudo:session): session opened for user root by rio(uid=0)
+Mar  7 17:46:44 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:46:48 server1 sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar  7 17:46:48 server1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 17:47:25 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:47:37 server1 sshd[2051]: Received disconnect from 192.168.56.119 port 41542:11: disconnected by user
+Mar  7 17:47:37 server1 sshd[2051]: Disconnected from user rio 192.168.56.119 port 41542
+Mar  7 17:47:37 server1 sshd[1984]: pam_unix(sshd:session): session closed for user rio
+Mar  7 17:47:37 server1 systemd-logind[736]: Removed session 4.
+Mar  7 17:48:19 server1 sudo:      rio : TTY=pts/0 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar  7 17:48:19 server1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 17:48:28 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:48:35 server1 systemd-logind[736]: System is rebooting.
+Mar  7 17:48:35 server1 polkitd(authority=local): Unregistered Authentication Agent for unix-session:2 (system bus name :1.77, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8) (disconnected from bus)
+Mar  7 17:48:35 server1 gdm-password]: pam_unix(gdm-password:session): session closed for user rio
+Mar  7 17:49:04 server1 systemd-logind[723]: New seat seat0.
+Mar  7 17:49:04 server1 systemd-logind[723]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 17:49:04 server1 systemd-logind[723]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 17:49:04 server1 systemd-logind[723]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 17:49:07 server1 sshd[842]: Server listening on 0.0.0.0 port 22.
+Mar  7 17:49:07 server1 sshd[842]: Server listening on :: port 22.
+Mar  7 17:49:09 server1 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 17:49:09 server1 systemd-logind[723]: New session c1 of user gdm.
+Mar  7 17:49:09 server1 sshd[842]: Received SIGHUP; restarting.
+Mar  7 17:49:09 server1 sshd[842]: Server listening on 0.0.0.0 port 22.
+Mar  7 17:49:09 server1 sshd[842]: Server listening on :: port 22.
+Mar  7 17:49:09 server1 sshd[842]: Received SIGHUP; restarting.
+Mar  7 17:49:09 server1 sshd[842]: Server listening on 0.0.0.0 port 22.
+Mar  7 17:49:09 server1 sshd[842]: Server listening on :: port 22.
+Mar  7 17:49:09 server1 systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 17:49:19 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.31 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 17:49:35 server1 gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=rio
+Mar  7 17:49:38 server1 dbus-daemon[734]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 17:49:41 server1 gdm-password]: pam_unix(gdm-password:session): session opened for user rio by (uid=0)
+Mar  7 17:49:41 server1 systemd-logind[723]: New session 2 of user rio.
+Mar  7 17:49:41 server1 systemd: pam_unix(systemd-user:session): session opened for user rio by (uid=0)
+Mar  7 17:49:46 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.78 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 17:50:10 server1 dbus-daemon[734]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 17:50:32 server1 sshd[1891]: Accepted publickey for rio from 192.168.56.119 port 40634 ssh2: RSA SHA256:pNg7israBi+ETsKKVl6m2h8e7VeTu/WakUo9U5igvLk
+Mar  7 17:50:32 server1 sshd[1891]: pam_unix(sshd:session): session opened for user rio by (uid=0)
+Mar  7 17:50:32 server1 systemd-logind[723]: New session 4 of user rio.
+Mar  7 17:50:37 server1 sshd[1958]: Received disconnect from 192.168.56.119 port 40634:11: disconnected by user
+Mar  7 17:50:37 server1 sshd[1958]: Disconnected from user rio 192.168.56.119 port 40634
+Mar  7 17:50:37 server1 sshd[1891]: pam_unix(sshd:session): session closed for user rio
+Mar  7 17:50:37 server1 systemd-logind[723]: Removed session 4.
+Mar  7 17:52:27 server1 sshd[2049]: Connection closed by 192.168.56.119 port 57766 [preauth]
+Mar  7 17:52:35 server1 sshd[2051]: Connection closed by 192.168.56.119 port 50072 [preauth]
+Mar  7 17:53:54 server1 sshd[2062]: Connection closed by 192.168.56.119 port 58860 [preauth]
+Mar  7 17:54:34 server1 sshd[2068]: Accepted publickey for rio from 192.168.56.119 port 37502 ssh2: RSA SHA256:pNg7israBi+ETsKKVl6m2h8e7VeTu/WakUo9U5igvLk
+Mar  7 17:54:34 server1 sshd[2068]: pam_unix(sshd:session): session opened for user rio by (uid=0)
+Mar  7 17:54:34 server1 systemd-logind[723]: New session 5 of user rio.
+Mar  7 17:54:37 server1 sshd[2113]: Received disconnect from 192.168.56.119 port 37502:11: disconnected by user
+Mar  7 17:54:37 server1 sshd[2113]: Disconnected from user rio 192.168.56.119 port 37502
+Mar  7 17:54:37 server1 systemd-logind[723]: Removed session 5.
+Mar  7 17:54:37 server1 sshd[2068]: pam_unix(sshd:session): session closed for user rio
+Mar  7 17:54:46 server1 sshd[2132]: Connection closed by 192.168.56.119 port 42896 [preauth]
+Mar  7 17:55:05 server1 sshd[2134]: Connection closed by authenticating user rio 192.168.56.119 port 43442 [preauth]
+Mar  7 17:55:05 server1 sshd[2136]: Accepted publickey for rio from 192.168.56.119 port 43448 ssh2: RSA SHA256:pNg7israBi+ETsKKVl6m2h8e7VeTu/WakUo9U5igvLk
+Mar  7 17:55:05 server1 sshd[2136]: pam_unix(sshd:session): session opened for user rio by (uid=0)
+Mar  7 17:55:05 server1 systemd-logind[723]: New session 6 of user rio.
+Mar  7 17:55:05 server1 sshd[2181]: Received disconnect from 192.168.56.119 port 43448:11: disconnected by user
+Mar  7 17:55:05 server1 sshd[2181]: Disconnected from user rio 192.168.56.119 port 43448
+Mar  7 17:55:05 server1 sshd[2136]: pam_unix(sshd:session): session closed for user rio
+Mar  7 17:55:05 server1 systemd-logind[723]: Removed session 6.
+Mar  7 17:55:27 server1 sshd[2184]: Connection closed by authenticating user rio 192.168.56.119 port 36770 [preauth]
+Mar  7 17:55:27 server1 sshd[2186]: Accepted publickey for rio from 192.168.56.119 port 36772 ssh2: RSA SHA256:pNg7israBi+ETsKKVl6m2h8e7VeTu/WakUo9U5igvLk
+Mar  7 17:55:27 server1 sshd[2186]: pam_unix(sshd:session): session opened for user rio by (uid=0)
+Mar  7 17:55:27 server1 systemd-logind[723]: New session 7 of user rio.
+Mar  7 17:55:27 server1 sshd[2231]: Received disconnect from 192.168.56.119 port 36772:11: disconnected by user
+Mar  7 17:55:27 server1 sshd[2231]: Disconnected from user rio 192.168.56.119 port 36772
+Mar  7 17:55:27 server1 sshd[2186]: pam_unix(sshd:session): session closed for user rio
+Mar  7 17:55:28 server1 systemd-logind[723]: Removed session 7.
+Mar  7 17:55:39 server1 sshd[2236]: Connection closed by 192.168.56.119 port 52372 [preauth]
+Mar  7 17:56:30 server1 sshd[2238]: Accepted publickey for rio from 192.168.56.119 port 43944 ssh2: RSA SHA256:pNg7israBi+ETsKKVl6m2h8e7VeTu/WakUo9U5igvLk
+Mar  7 17:56:30 server1 sshd[2238]: pam_unix(sshd:session): session opened for user rio by (uid=0)
+Mar  7 17:56:30 server1 systemd-logind[723]: New session 8 of user rio.
+Mar  7 17:56:31 server1 sudo:      rio : TTY=pts/1 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-vndqgjadlhbufonvqerphbyhlybwgvgc; /usr/bin/python3 rio/ansible-tmp-1709805391.02-2788288786753/setup.py
+Mar  7 17:56:31 server1 sudo: pam_unix(sudo:session): session opened for user root by rio(uid=0)
+Mar  7 17:56:31 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:56:32 server1 sudo:      rio : TTY=pts/1 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-uubsvowsrvlleovqdrwlystneslzgvxh; /usr/bin/python3 rio/ansible-tmp-1709805392.1-252367709280453/slurp.py
+Mar  7 17:56:32 server1 sudo: pam_unix(sudo:session): session opened for user root by rio(uid=0)
+Mar  7 17:56:32 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:56:32 server1 sudo:      rio : TTY=pts/1 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-crzqvkqakqnbvrkpsqvpqdnubwmyuocd; /usr/bin/python3 rio/ansible-tmp-1709805392.44-85281956943977/slurp.py
+Mar  7 17:56:32 server1 sudo: pam_unix(sudo:session): session opened for user root by rio(uid=0)
+Mar  7 17:56:32 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 17:57:32 server1 sshd[2283]: Received disconnect from 192.168.56.119 port 43944:11: disconnected by user
+Mar  7 17:57:32 server1 sshd[2283]: Disconnected from user rio 192.168.56.119 port 43944
+Mar  7 17:57:32 server1 sshd[2238]: pam_unix(sshd:session): session closed for user rio
+Mar  7 17:57:32 server1 systemd-logind[723]: Removed session 8.
+Mar  7 18:01:45 server1 sshd[2389]: Connection closed by 192.168.56.119 port 57502 [preauth]
+Mar  7 18:02:00 server1 sshd[2391]: Accepted publickey for rio from 192.168.56.119 port 34632 ssh2: RSA SHA256:pNg7israBi+ETsKKVl6m2h8e7VeTu/WakUo9U5igvLk
+Mar  7 18:02:00 server1 sshd[2391]: pam_unix(sshd:session): session opened for user rio by (uid=0)
+Mar  7 18:02:00 server1 systemd-logind[723]: New session 9 of user rio.
+Mar  7 18:02:43 server1 sshd[2437]: Received disconnect from 192.168.56.119 port 34632:11: disconnected by user
+Mar  7 18:02:44 server1 sshd[2437]: Disconnected from user rio 192.168.56.119 port 34632
+Mar  7 18:02:44 server1 systemd-logind[723]: Removed session 9.
+Mar  7 18:02:44 server1 sshd[2391]: pam_unix(sshd:session): session closed for user rio
+Mar  7 18:17:01 server1 CRON[2492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  7 18:17:01 server1 CRON[2492]: pam_unix(cron:session): session closed for user root
+Mar  7 18:18:12 server1 sshd[2495]: Accepted publickey for rio from 192.168.56.119 port 34050 ssh2: RSA SHA256:pNg7israBi+ETsKKVl6m2h8e7VeTu/WakUo9U5igvLk
+Mar  7 18:18:12 server1 sshd[2495]: pam_unix(sshd:session): session opened for user rio by (uid=0)
+Mar  7 18:18:12 server1 systemd-logind[723]: New session 11 of user rio.
+Mar  7 18:18:12 server1 sudo:      rio : TTY=pts/1 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-konfkkqzudytrvfavwqlpfovfmodqqwb; /usr/bin/python3 rio/ansible-tmp-1709806692.3-270196827812608/setup.py
+Mar  7 18:18:12 server1 sudo: pam_unix(sudo:session): session opened for user root by rio(uid=0)
+Mar  7 18:18:12 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 18:18:12 server1 sudo:      rio : TTY=pts/1 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ycnlzlurytncfmsacanzspnpjmwwoaqx; /usr/bin/python3 rio/ansible-tmp-1709806692.86-254158601191729/slurp.py
+Mar  7 18:18:12 server1 sudo: pam_unix(sudo:session): session opened for user root by rio(uid=0)
+Mar  7 18:18:13 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 18:18:13 server1 sudo:      rio : TTY=pts/1 ; PWD=/home/rio ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ojbkzevxsdbhehpdcbdsxcoyjipwqpdp; /usr/bin/python3 rio/ansible-tmp-1709806693.17-269582290265359/slurp.py
+Mar  7 18:18:13 server1 sudo: pam_unix(sudo:session): session opened for user root by rio(uid=0)

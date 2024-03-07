@@ -1,0 +1,13 @@
+---
+- hosts: server1
+  become: true
+  tasks:
+
+  - name: Collect log files from Server 1
+    fetch:
+      src: "/var/log/{{ item }}"
+      dest: "server1_logs/"
+      flat: yes
+    with_items:
+      - syslog
+      - auth.log
